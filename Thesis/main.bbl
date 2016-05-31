@@ -1,0 +1,118 @@
+\begin{thebibliography}{10}
+
+\bibitem{jalba2003automatic}
+Jalba A~C, Roerdink J~B.
+\newblock Automatic segmentation of diatom images.
+\newblock  Computer Analysis of Images and Patterns. Springer, 2003.
+\newblock  329--336
+\thudot
+
+\bibitem{jalba2004automatic}
+Jalba A~C, Wilkinson M~H, Roerdink J~B.
+\newblock Automatic segmentation of diatom images for classification.
+\newblock Microscopy research and technique, 2004, 65(1-2):72--85
+\thudot
+
+\bibitem{rodenacker2006automatic}
+Rodenacker K, Hense B, J{\"u}tting U, et~al.
+\newblock Automatic analysis of aqueous specimens for phytoplankton structure
+  recognition and population estimation.
+\newblock Microscopy research and technique, 2006, 69(9):708--720
+\thudot
+
+\bibitem{blaschko2005automatic}
+Blaschko M~B, Holness G, Mattar M~A, et~al.
+\newblock Automatic in situ identification of plankton.
+\newblock  Application of Computer Vision, 2005. WACV/MOTIONS'05 Volume 1.
+  Seventh IEEE Workshops on, volume~1. IEEE, 2005.
+\newblock  79--86
+\thudot
+
+\bibitem{sosik2007automated}
+Sosik H~M, Olson R~J.
+\newblock Automated taxonomic classification of phytoplankton sampled with
+  imaging-in-flow cytometry.
+\newblock Limnol. Oceanogr. Methods, 2007, 5(204):e216
+\thudot
+
+\bibitem{luo2011automatic}
+Luo Q, Gao Y, Luo J, et~al.
+\newblock Automatic identification of diatoms with circular shape using texture
+  analysis.
+\newblock Journal of Software, 2011, 6(3):428--435
+\thudot
+
+\bibitem{verikas2012phase}
+Verikas A, Gelzinis A, Bacauskiene M, et~al.
+\newblock Phase congruency-based detection of circular objects applied to
+  analysis of phytoplankton images.
+\newblock Pattern Recognition, 2012, 45(4):1659--1670
+\thudot
+
+\bibitem{soh2008segmentation}
+Soh Y, Dong W, Lee H, et~al.
+\newblock Segmentation of plankton images by mean shift clustering and
+  graph-based cluster merging.
+\newblock  SCIS \& ISIS, volume 2008. Japan Society for Fuzzy Theory and
+  Intelligent Informatics, 2008.
+\newblock  1149--1153
+\thudot
+
+\bibitem{cuiping2010system}
+Cuiping S, Chenhui Y, Huizhen L, et~al.
+\newblock A system for identification of marine phytoplankton.
+\newblock  Signal Processing Systems (ICSPS), 2010 2nd International Conference
+  on, volume~3. IEEE, 2010.
+\newblock  V3--426
+\thudot
+
+\bibitem{kloster2014sherpa}
+Kloster M, Kauer G, Beszteri B.
+\newblock Sherpa: an image segmentation and outline feature extraction tool for
+  diatoms and other objects.
+\newblock BMC bioinformatics, 2014, 15(1):1
+\thudot
+
+\bibitem{gelzinis2015novel}
+Gelzinis A, Verikas A, Vaiciukynas E, et~al.
+\newblock A novel technique to extract accurate cell contours applied for
+  segmentation of phytoplankton images.
+\newblock Machine Vision and Applications, 2015, 26(2-3):305--315
+\thudot
+
+\bibitem{zheng2014automatic}
+Zheng H, Zhao H, Sun X, et~al.
+\newblock Automatic setae segmentation from chaetoceros microscopic images.
+\newblock Microscopy research and technique, 2014, 77(9):684--690
+\thudot
+
+\bibitem{otsu1975threshold}
+Otsu N.
+\newblock A threshold selection method from gray-level histograms.
+\newblock Automatica, 1975, 11(285-296):23--27
+\thudot
+
+\bibitem{cortes1995support}
+Cortes C, Vapnik V.
+\newblock Support-vector networks.
+\newblock Machine learning, 1995, 20(3):273--297
+\thudot
+
+\bibitem{macqueen1967some}
+MacQueen J, et~al.
+\newblock Some methods for classification and analysis of multivariate
+  observations.
+\newblock  Proceedings of the fifth Berkeley symposium on mathematical
+  statistics and probability, volume~1. Oakland, CA, USA., 1967.
+\newblock  281--297
+\thudot
+
+\bibitem{rish2001empirical}
+Rish I.
+\newblock An empirical study of the naive bayes classifier.
+\newblock  IJCAI 2001 workshop on empirical methods in artificial intelligence,
+  volume~3. IBM New York, 2001.
+\newblock  41--46
+\thudot
+
+\end{thebibliography}

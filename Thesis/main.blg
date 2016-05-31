@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: data/chap01.aux
+A level-1 auxiliary file: data/chap02.aux
+A level-1 auxiliary file: data/chap03.aux
+A level-1 auxiliary file: data/chap04.aux
+A level-1 auxiliary file: data/chap05.aux
+A level-1 auxiliary file: data/chap06.aux
+The style file: thubib.bst
+A level-1 auxiliary file: data/ack.aux
+A level-1 auxiliary file: data/resume.aux
+Database file #1: ref/refs.bib
+Warning--can't use both volume and number fields in soh2008segmentation
+Warning--can't use both volume and number fields in macqueen1967some
+Warning--can't use both volume and number fields in rish2001empirical
+You've used 16 entries,
+            2255 wiz_defined-function locations,
+            664 strings with 7568 characters,
+and the built_in function-call counts, 8832 in all, are:
+= -- 915
+> -- 206
+< -- 11
++ -- 96
+- -- 48
+* -- 718
+:= -- 1159
+add.period$ -- 44
+call.type$ -- 16
+change.case$ -- 16
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 615
+empty$ -- 901
+format.name$ -- 62
+if$ -- 2019
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 16
+newline$ -- 105
+num.names$ -- 16
+pop$ -- 62
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 164
+stack$ -- 0
+substring$ -- 1200
+swap$ -- 64
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 100
+width$ -- 18
+write$ -- 211
+(There were 3 warnings)

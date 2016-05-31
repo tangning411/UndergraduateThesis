@@ -1,0 +1,303 @@
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
+% 中国海洋大学研究生学位论文封面
+% 参考：中国海洋大学研究生学位论文书写格式20130307.doc
+
+% 为避免出现错误，下面保留［清华大学学位论文模板原有定义无需修改］，
+% 请直接跳到后面［中国海洋大学学位论文模板部分请根据自己情况修改］。
+
+%%%%%%%%%%%%%%%%%%%%%%［清华大学学位论文模板原有定义无需修改］%%%%%%%%%%%%%%%%%%%%%%%
+\secretlevel{绝密} \secretyear{2100}
+
+\ctitle{清华大学学位论文 \LaTeX\ 模板\\使用示例文档}
+% 根据自己的情况选，不用这样复杂
+\makeatletter
+\ifthu@bachelor\relax\else
+  \ifthu@doctor
+    \cdegree{工学博士}
+  \else
+    \ifthu@master
+      \cdegree{工学硕士}
+    \fi
+  \fi
+\fi
+\makeatother
+
+
+\cdepartment[计算机]{计算机科学与技术系}
+\cmajor{计算机科学与技术}
+\cauthor{薛瑞尼} 
+\csupervisor{郑纬民教授}
+% 如果没有副指导老师或者联合指导老师，把下面两行相应的删除即可。
+\cassosupervisor{陈文光教授}
+\ccosupervisor{某某某教授}
+% 日期自动生成，如果你要自己写就改这个cdate
+%\cdate{\CJKdigits{\the\year}年\CJKnumber{\the\month}月}
+
+% 博士后部分
+% \cfirstdiscipline{计算机科学与技术}
+% \cseconddiscipline{系统结构}
+% \postdoctordate{2009年7月——2011年7月}
+
+\etitle{An Introduction to \LaTeX{} Thesis Template of Tsinghua University} 
+% 这块比较复杂，需要分情况讨论：
+% 1. 学术型硕士
+%    \edegree：必须为Master of Arts或Master of Science（注意大小写）
+%              “哲学、文学、历史学、法学、教育学、艺术学门类，公共管理学科
+%               填写Master of Arts，其它填写Master of Science”
+%    \emajor：“获得一级学科授权的学科填写一级学科名称，其它填写二级学科名称”
+% 2. 专业型硕士
+%    \edegree：“填写专业学位英文名称全称”
+%    \emajor：“工程硕士填写工程领域，其它专业学位不填写此项”
+% 3. 学术型博士
+%    \edegree：Doctor of Philosophy（注意大小写）
+%    \emajor：“获得一级学科授权的学科填写一级学科名称，其它填写二级学科名称”
+% 4. 专业型博士
+%    \edegree：“填写专业学位英文名称全称”
+%    \emajor：不填写此项
+\edegree{Doctor of Engineering} 
+\emajor{Computer Science and Technology} 
+\eauthor{Xue Ruini} 
+\esupervisor{Professor Zheng Weimin} 
+\eassosupervisor{Chen Wenguang} 
+% 这个日期也会自动生成，你要改么？
+% \edate{December, 2005}
+
+% 定义中英文摘要和关键字
+\begin{cabstract}
+  论文的摘要是对论文研究内容和成果的高度概括。摘要应对论文所研究的问题及其研究目
+  的进行描述，对研究方法和过程进行简单介绍，对研究成果和所得结论进行概括。摘要应
+  具有独立性和自明性，其内容应包含与论文全文同等量的主要信息。使读者即使不阅读全
+  文，通过摘要就能了解论文的总体内容和主要成果。
+
+  论文摘要的书写应力求精确、简明。切忌写成对论文书写内容进行提要的形式，尤其要避
+  免“第 1 章……；第 2 章……；……”这种或类似的陈述方式。
+
+  本文介绍清华大学论文模板 \thuthesis{} 的使用方法。本模板符合学校的本科、硕士、
+  博士论文格式要求。
+
+  本文的创新点主要有：
+  \begin{itemize}
+    \item 用例子来解释模板的使用方法；
+    \item 用废话来填充无关紧要的部分；
+    \item 一边学习摸索一边编写新代码。
+  \end{itemize}
+
+  关键词是为了文献标引工作、用以表示全文主要内容信息的单词或术语。关键词不超过 5
+  个，每个关键词中间用分号分隔。（模板作者注：关键词分隔符不用考虑，模板会自动处
+  理。英文关键词同理。）
+\end{cabstract}
+
+\ckeywords{\TeX, \LaTeX, CJK, 模板, 论文}
+
+\begin{eabstract} 
+   An abstract of a dissertation is a summary and extraction of research work
+   and contributions. Included in an abstract should be description of research
+   topic and research objective, brief introduction to methodology and research
+   process, and summarization of conclusion and contributions of the
+   research. An abstract should be characterized by independence and clarity and
+   carry identical information with the dissertation. It should be such that the
+   general idea and major contributions of the dissertation are conveyed without
+   reading the dissertation. 
+
+   An abstract should be concise and to the point. It is a misunderstanding to
+   make an abstract an outline of the dissertation and words ``the first
+   chapter'', ``the second chapter'' and the like should be avoided in the
+   abstract.
+
+   Key words are terms used in a dissertation for indexing, reflecting core
+   information of the dissertation. An abstract may contain a maximum of 5 key
+   words, with semi-colons used in between to separate one another.
+\end{eabstract}
+
+\ekeywords{\TeX, \LaTeX, CJK, template, thesis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%［中国海洋大学学位论文模板部分请根据自己情况修改］%%%%%%%%%%%%%%%%%%%
+% 中国海洋大学研究生学位论文封面
+% 必须填写的内容包括（其他最好不要修改）：
+%   分类号、密级、UDC
+%   论文中文题目、作者中文姓名
+%   论文答辩时间
+%   封面感谢语
+%   论文英文题目
+%   中文摘要、中文关键词
+%   英文摘要、英文关键词
+%
+%%%%%［自定义］%%%%%
+\newcommand{\fenleihao}{}%分类号
+\newcommand{\miji}{}%密级 
+                    % 绝密$\bigstar$20年 
+                    % 机密$\bigstar$10年
+                    % 秘密$\bigstar$5年
+\newcommand{\UDC}{}%UDC
+\newcommand{\oucctitle}{角毛藻显微图像分割}%论文中文题目
+\ctitle{角毛藻显微图像分割}%必须修改因为页眉中用到
+\cauthor{***}%可以选择修改因为仅在 pdf 文档信息中用到
+\cdegree{工学}%可以选择修改因为仅在 pdf 文档信息中用到
+\ckeywords{\TeX, \LaTeX, CJK, 模板, 论文}%可以选择修改因为仅在 pdf 文档信息中用到
+\newcommand{\ouccauthor}{汤宁}%作者中文姓名
+%\newcommand{\ouccauthor}{***}%外审时用到
+%\newcommand{\ouccsupervisor}{姬光荣教授}%作者导师中文姓名
+%\newcommand{\ouccdegree}{博\hspace{1em}士}%作者申请学位级别
+%\newcommand{\ouccmajor}{海洋信息探测与处理}%作者专业名称
+%\newcommand{\ouccdateday}{\CJKdigits{\the\year}年\CJKnumber{\the\month}月\CJKnumber{\the\day}日}
+%\newcommand{\ouccdate}{\CJKdigits{\the\year}年\CJKnumber{\the\month}月}
+\newcommand{\oucdatedefense}{           }%论文答辩时间
+%\newcommand{\oucdatedegree}{2009年6月}%学位授予时间
+\newcommand{\oucgratitude}{谨以此论文献给我的导师和亲人！}%封面感谢语
+\newcommand{\oucetitle}{\emph{Chaetoceros} Microscopic Image Segmentation}%论文英文题目
+%\newcommand{\ouceauthor}{Haiyong Zheng}%作者英文姓名
+\newcommand{\oucthesis}{\textsc{OUCThesis}}
+%%%%%默认自定义命令%%%%%
+% 空下划线定义
+\newcommand{\oucblankunderline}[1]{\rule[-2pt]{#1}{.7pt}}
+\newcommand{\oucunderline}[2]{\underline{\hskip #1 #2 \hskip#1}}
+
+% 论文封面第一页
+%%不需要改动%%
+\vspace*{5cm}
+{\xiaoer\heiti\oucgratitude
+
+\begin{flushright}
+---\hspace*{-2mm}---\hspace*{-2mm}---\hspace*{-2mm}---\hspace*{-2mm}---\hspace*{-2mm}---\hspace*{-2mm}---\hspace*{-2mm}---\hspace*{-2mm}---\hspace*{-2mm}---~\ouccauthor
+\end{flushright}
+}
+
+%\begin{comment}
+
+\newpage 
+%\mbox{} 
+%\newpage
+
+% 论文封面第二页
+%%不需要改动%%
+\vspace*{1cm}
+\begin{center}
+  {\xiaoer\heiti\oucctitle}
+\end{center}
+\vspace{10.7cm}
+{\normalsize\songti
+\begin{flushright}
+{\renewcommand{\arraystretch}{1.3}
+  \begin{tabular}{r@{}l}
+    学位论文答辩日期：~ & \oucunderline{2.5cm}{\oucdatedefense} \\
+    指导教师签字：~ & \oucblankunderline{5cm} \\
+    答辩委员会成员签字：~ & \oucblankunderline{5cm} \\
+    ~ & \oucblankunderline{5cm} \\
+    ~ & \oucblankunderline{5cm} \\
+    ~ & \oucblankunderline{5cm} \\
+    ~ & \oucblankunderline{5cm} \\
+    ~ & \oucblankunderline{5cm} \\
+    ~ & \oucblankunderline{5cm} \\
+  \end{tabular}
+}
+\end{flushright}
+}
+
+\newpage 
+%\mbox{} 
+%\newpage
+
+% 论文封面第三页
+%%不需要改动%%
+\vspace*{1cm}
+\begin{center}
+  {\xiaosan\heiti 独\hspace{1em}创\hspace{1em}声\hspace{1em}明}
+\end{center}
+\par{\normalsize\songti\parindent2em
+本人声明所呈交的学位论文是本人在导师指导下进行的研究工作及取得的研究成果。据我所知，除了文中特别加以标注和致谢的地方外，论文中不包含其他人已经发表或撰写过的研究成果，也不包含未获得~\oucblankunderline{7cm}（注：如没有其他需要特别声明的，本栏可空）或其他教育机构的学位或证书使用过的材料。与我一同工作的同志对本研究所做的任何贡献均已在论文中作了明确的说明并表示谢意。
+}
+\vskip1.5cm
+\begin{flushright}{\normalsize\songti
+  学位论文作者签名：\hskip2cm 签字日期：\hskip1cm 年 \hskip0.7cm 月\hskip0.7cm 日}
+\end{flushright}
+\vskip.5cm
+{\setlength{\unitlength}{0.1\textwidth}
+  \begin{picture}(10, 0.1)
+    \multiput(0,0)(0.2, 0){50}{\rule{0.15\unitlength}{.5pt}}
+  \end{picture}}
+\vskip1cm
+\begin{center}
+  {\xiaosan\heiti 学位论文版权使用授权书}
+\end{center}
+\par{\normalsize\songti\parindent2em
+本学位论文作者完全了解学校有关保留、使用学位论文的规定，并同意以下事项：
+\begin{enumerate}
+\item 学校有权保留并向国家有关部门或机构送交论文的复印件和磁盘，允许论文被查阅和借阅。
+\item 学校可以将学位论文的全部或部分内容编入有关数据库进行检索，可以采用影印、缩印或扫描等复制手段保存、汇编学位论文。同时授权清华大学“中国学术期刊(光盘版)电子杂志社”用于出版和编入CNKI《中国知识资源总库》，授权中国科学技术信息研究所将本学位论文收录到《中国学位论文全文数据库》。
+\end{enumerate}
+（保密的学位论文在解密后适用本授权书）
+}
+\vskip1.5cm
+{\parindent0pt\normalsize\songti
+学位论文作者签名：\hskip4.2cm\relax%
+导师签字：\relax\hspace*{1.2cm}\\
+签字日期：\hskip1cm 年\hskip0.7cm 月\hskip0.7cm 日\relax\hfill%
+签字日期：\hskip1cm 年\hskip0.7cm 月\hskip0.7cm 日\relax\hspace*{1.2cm}}
+
+%\end{comment}
+
+\newpage 
+%\mbox{} 
+%\newpage
+
+\pagestyle{plain}
+\clearpage\pagenumbering{roman}
+
+% 中文摘要
+%%［需要填写：中文摘要、中文关键词］%%
+\begin{center}
+  {\sanhao[1.5]\heiti\oucctitle\\\vskip7pt 摘\hspace{1em}要}
+\end{center}
+{\normalsize\songti
+
+  \indent
+近年来，由于现代化工农业迅速发展，海水富营养化现象逐渐加重致使有害赤潮发生的频率增加，严重破坏了海洋生态系统的平衡，阻碍了海洋渔业的发展，并且极大威胁了人体健康和生命安全。
+
+在海洋浮游硅藻属中占有十分重要的地位的角毛藻，其中大多数是海洋浮游植物中的有益藻种，是许多海洋动物的饵料，但有的角毛藻则是引发有害赤潮的主要因素。本文的研究对象是角毛藻，针对其独特的生物形态特征使用基于灰度曲面方向角模型并结合支持向量机的方法从含有噪声且对比度较低的显微图像中分割出角毛藻目标细胞及其角毛部分，为实现角毛藻属间不同物种分类提供了基础。本文的主要工作如下：
+\begin{enumerate}
+\item 角毛藻显微图像特征提取。根据角毛藻特有的形态特征，运用灰度曲面方向角模型得到五幅灰度映射特征图，从而较完整地保留了角毛信息，同时消除了显微图像中所含的噪声。
+\item 连通区域的预分割。运用大津法二值化和选取最大四连通区域对五幅特征图中含有角毛信息较多的两幅图像进行操作，运用逻辑逻辑“与”处理得到的两幅二值图像获取支持向量机的训练样本。
+\item 支持向量机分类和后续处理。运用支持向量机对图像中的像素进行分类，训练过程中，输入特征和训练样本对模型进行训练；预测过程中输入原始灰度图及其对应特征。由于分类后图像仍含有一定的噪声，因此使用选取最大连通区域及形态学操作等方式对分类得到的结果进行处理，最后得到原始彩色图像的分割结果。实验表明，本文采用的方法可以获得较为理想的分割效果。 
+\end{enumerate}
+
+经过实验验证，本文方法能够有效地提取角毛信息，可以将角毛藻目标从原始显微图像中有效地提取出来，得到较为准确的分割结果。
+
+\vskip12bp
+{\xiaosi\heiti\noindent
+关键词：\hskip1em 角毛藻；图像分割；灰度曲面方向角模型；支持向量机}
+
+\newpage 
+%\mbox{} 
+%\newpage
+
+% 英文摘要
+%%［需要填写：英文摘要、英文关键词］%%
+\begin{center}
+  {\sanhao[1.5]\heiti\oucetitle\\\vskip7pt Abstract}
+\end{center}
+{\normalsize\songti
+
+ In recent years, following the aggravation of seawater eutrophication led frequent occurrence of harmful algal blooms and serious damage to marine ecological environment, which poses a great threat to human health. And it has seriously hindered the development of the marine economy.
+
+As one of the main reasons leading harmful red tide, \emph{Chaetoceros} occupies a very important position in the marine planktonic diatoms with the characteristic of a great variety, numerous quantity, small per volume, excess aggregation, and complex shape. In this paper, regarding \emph{Chaetoceros} as the research object, uses the method based on Grayscale Surface Direction Angle Model and Support Vector Machines combining with the unique biomorphological characterristics and microscopic image characteristics of \emph{Chaetoceros} for the segmentation of \emph{Chaetoceros} microscopic images. The main work of the thesis has the following three parts:
+\begin{enumerate}
+\item Feature extraction of \emph{Chaetoceros} microscopic images. According to the unique morphological features of \emph{Chaetoceros}, this paper adopts gray surface direction angle model to get five grayscale mapping feature maps, and finally obtains the goal of eliminating noise interference in microscopic images and reserving \emph{Chaetoceros} setae information. Applying this algorithm can extract more setae information.
+\item Connected region pre-segmentation. Using Otsu binarization and selecting largest 4-connected region for the two maps which have more setae information than others in five feature maps. And applying logical AND operation on the two binary images to get the training samples for following SVM classification.
+\item SVM classification and Post-processing. SVM is adopted here for classifying each pixel in images. In the training procedure, inputting features and training samples for SVM training. And in the prediction procedure, inputting original grayscale image with their five maps'grayscale intensity values to the SVM classifier for predicting which class it belongs to. The results of classification are processed
+by selecting the largest connected region and using morphological operation because the classified images still contain some noise. Finally, the segmentation results of the original color image are obtained. Experiments show that this method can obtain a segmentation performance.
+\end{enumerate}
+With the experimental verification, the method proposing in this paper are efficient in extracting more setae information and extracting \emph{Chaetoceros} objects from original microscopic images to get a better segmentation results.
+}
+\vskip12bp
+{\xiaosi\heiti\noindent 
+\textbf{Keywords:\enskip \emph{Chaetoceros}; Image Segmentation; Gray Surface Direction Angle Model; Support Vector Mechines}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage 
+%\mbox{} 
+%\newpage
