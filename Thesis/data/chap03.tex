@@ -64,8 +64,8 @@ t^{*}=\argmax_{0\le t\le L-1}\eta(t)
 
 因为原始角毛藻灰度图像中的噪声没有方向性和规律性，并且比较杂乱，不能同时在两幅得到的二值图像上得到高的灰度值，所以需要对两幅得到的二值图像使用逻辑“与”(AND)操作来尽量减少较为显著的噪声从而更加突出角毛藻的脚毛和细胞边缘信息。最终可以得到一个精确但是仍然缺少某些特征信息的不完整的角毛藻二值预分割结果。所得的预分割结果将会被用来作为支持向量机训练过程中的训练样本。
 
-如图\ref{trainingsampleresult}所示为实验结果：
-\begin{figure}
+如图\ref{trainingsampleresult}所示为实验结果。
+\begin{figure}[!ht]
 \centering
     \begin{minipage}[b]{0.45\linewidth}
     \centering
@@ -92,7 +92,7 @@ t^{*}=\argmax_{0\le t\le L-1}\eta(t)
     \includegraphics[width=0.9\linewidth]{traingingsample.jpg}
       \centerline{(e) 最终预分割结果}\medskip
   \end{minipage}
- \caption{大津法二值化与选取最大连通区域的预分割结果}
+ \caption{连通区域的预分割结果。第一行为xz方向和yz方向的灰度映射图，第二行为对应的大津法二值化并选取最大连通域的结果，第三行为最终预分割结果。}
   \label{trainingsampleresult}
 \end{figure}
 

@@ -147,61 +147,62 @@ K(x_{i},x_{j})=\tanh[\gamma x_{i}^{T}\bullet x_{j}+r]
 \end{enumerate}
 
 支持向量机分类完成后，图像中仍然含有一定的噪声，因此需要再次进行连通域操作来选取目标部分的最大连通域。此外，还需要加入一些形态学操作来平滑边缘并填充目标，这时可以得到一个调整后的二值图像。同时，获取的结果需要再一次进行调整恢复成原始二值图像。最后，对原始二值图像和原始彩色显微图像使用逻辑“与”操作来得到最终图像分割结果。
-具体实验结果如下图\ref{svm}所示：
-\begin{figure}[h]
+
+具体实验结果如下图\ref{svm}所示。
+\begin{figure}[!ht]
   \centering
   \begin{subfigure}{0.3\textwidth}
    \includegraphics[height=3.6cm]{resize.jpg}
-   \caption{原始角毛藻显微图像}
+   \caption{}
   \end{subfigure}
   \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{bingji1svm.png}
-    \caption{支持向量机分类结果}
+    \caption{}
   \end{subfigure}
   \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{bingji1result.png}
-    \caption{最终分割结果}
+    \caption{}
   \end{subfigure}
   \\
   \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{bingji2.png}
-    \caption{原始角毛藻显微图像}
+    \caption{}
   \end{subfigure}
  \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{bingji2svm.png}
-    \caption{支持向量机分类结果}
+    \caption{}
   \end{subfigure}
  \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{bingji2result.png}
-    \caption{最终分割结果}
+    \caption{}
   \end{subfigure}
  \\
  \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{beifang.png}
-    \caption{原始角毛藻显微图像}
+    \caption{}
   \end{subfigure}
   \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{beifangsvm.png}
-    \caption{支持向量机分类结果}
+    \caption{}
   \end{subfigure}
    \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{beifangresult.png}
-    \caption{最终分割结果}
+    \caption{}
   \end{subfigure}
   \\
    \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{danmai.png}
-    \caption{原始角毛藻显微图像}
+    \caption{}
   \end{subfigure}
    \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{danmaisvm.png}
-    \caption{支持向量机分类结果}
+    \caption{}
   \end{subfigure}
    \begin{subfigure}{0.3\textwidth}
     \includegraphics[height=3.6cm]{danmairesult.png}
-    \caption{最终分割结果}
+    \caption{}
   \end{subfigure}
-  \caption{支持向量机分类结果和最终分割结果}
+  \caption{支持向量机分类结果和最终分割结果。第一列为原始角毛藻显微图像，第二列为对应的支持向量机分类结果，第三列为采用形态学操作等后续处理过程产生的最终分割结果。}
   \label{svm}
 \end{figure}
 

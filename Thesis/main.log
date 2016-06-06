@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.8.31)  2 JAN 2009 03:52
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.8.31)  1 JUN 2016 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1476,7 +1476,7 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (./main.aux
 (./data/chap01.aux) (./data/chap02.aux) (./data/chap03.aux) (./data/chap04.aux)
-(./data/chap05.aux) (./data/chap06.aux) (./data/ack.aux) (./data/resume.aux))
+(./data/chap05.aux) (./data/chap06.aux) (./data/ack.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 28.
@@ -1654,7 +1654,7 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 187.
 
 (/opt/texlive/2013/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [2] [3] [1
+) [2] [1
 
 ] [2])
 
@@ -1714,7 +1714,7 @@ Package hyperref Warning: pdfproducer: xdvipdfmx will use its own setting
 (hyperref)                instead of the value given on input line 39.
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 298--42
+Underfull \hbox (badness 2310) in paragraph at lines 253--42
 \EU1/TimesNewRoman(0)/bx/n/12.045 Keywords: \EU1/TimesNewRoman(0)/bx/it/12.045 
 Chaetoceros\EU1/TimesNewRoman(0)/bx/n/12.045 ; Image Segmentation; Gray Surface
  Direction Angle
@@ -1928,11 +1928,7 @@ File: figures/danmaisvm.png Graphic file (type QTm)
 
 <use  "figures/danmaisvm.png" >
 File: figures/danmairesult.png Graphic file (type QTm)
- <use  "figures/danmairesult.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
+ <use  "figures/danmairesult.png" >)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
@@ -1981,32 +1977,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-\openout2 = `data/resume.aux'.
-
-
-No file data/resume.tex.
 \tf@thm=\write6
 \openout6 = `main.thm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
+
 (./main.aux (./data/chap01.aux) (./data/chap02.aux) (./data/chap03.aux)
-(./data/chap04.aux) (./data/chap05.aux) (./data/chap06.aux) (./data/ack.aux)
-(./data/resume.aux))
+(./data/chap04.aux) (./data/chap05.aux) (./data/chap06.aux) (./data/ack.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 90.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 257 ({)
+### simple group (level 1) entered at line 216 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29223 strings out of 493938
- 559710 string characters out of 6148857
- 601400 words of memory out of 5000000
- 31959 multiletter control sequences out of 15000+600000
- 14649 words of font info for 99 fonts, out of 8000000 for 9000
+ 29203 strings out of 493938
+ 559248 string characters out of 6148857
+ 600011 words of memory out of 5000000
+ 31945 multiletter control sequences out of 15000+600000
+ 14633 words of font info for 97 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 69i,27n,52p,909b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,27n,52p,1213b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (30 pages).
+Output written on main.pdf (29 pages).
